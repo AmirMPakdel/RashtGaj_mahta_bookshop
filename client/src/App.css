@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+button{
+
+  border-width: 0px;
+  padding: 0px;
+}
+
+button:active {
+
+  border-width: 0px;
+}
+
+button:focus{
+  outline: 0px;
+}
+
+.tooltip {
+  position: relative;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  top: 100%;
+  left: 50%; 
+  margin-left: -60px;
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+@font-face {
+  font-family: "amp";
+  src: url('../src/assets/fonts/amp_sans.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: "roozname";
+  src: url('../src/assets/fonts/ARooznameh.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: "ebhar";
+  src: url('../src/assets/fonts/Ebhaar.otf') format("truetype");
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
